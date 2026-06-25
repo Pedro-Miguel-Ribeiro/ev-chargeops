@@ -195,10 +195,35 @@ Essas análises auxiliam gestores na tomada de decisão e tornam a plataforma ma
 
 # Plano da Sprint 2
 
-(Esta seção será preenchida após as pesquisas.)
+Na segunda sprint será desenvolvido um protótipo funcional da plataforma EV ChargeOps.
+
+As etapas previstas são:
+
+1. Desenvolvimento do sistema de cadastro de usuários e veículos;
+2. Implementação do registro de sessões de recarga;
+3. Integração com a API da GoodWe;
+4. Implementação do cálculo automático de rateio;
+5. Desenvolvimento de dashboards e relatórios;
+6. Implementação das funcionalidades de Inteligência Artificial;
+7. Realização de testes e validação da solução.
+
+## Tecnologias Pretendidas
+
+* Front-end: HTML, CSS e JavaScript;
+* Back-end: Python;
+* Banco de Dados: MySQL;
+* Controle de versão: Git e GitHub;
+* Inteligência Artificial: bibliotecas de Machine Learning em Python.
 
 ---
 
 # Referências
 
-(Esta seção será preenchida ao final do projeto.)
+* ABVE – Associação Brasileira do Veículo Elétrico. Disponível em: https://www.abve.org.br
+* ANEEL – Agência Nacional de Energia Elétrica. Disponível em: https://www.gov.br/aneel
+* GoodWe – Documentação e informações técnicas. Disponível em: https://www.goodwe.com
+* Open Charge Map. Disponível em: https://openchargemap.org
+* Google Places API. Disponível em: https://developers.google.com/maps
+* IBGE – Instituto Brasileiro de Geografia e Estatística. Disponível em: https://www.ibge.gov.br
+* Kaggle – Electric Vehicle Charging Sessions Dataset. Disponível em: https://www.kaggle.com
+
