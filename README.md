@@ -31,7 +31,26 @@ Desenvolver uma plataforma chamada **EV ChargeOps**, capaz de:
 
 # Frente 1 – Contexto e Problema
 
-(Esta seção será preenchida após as pesquisas.)
+## Contexto
+
+Nos últimos anos, o mercado de veículos elétricos apresentou um crescimento significativo no Brasil e no mundo. Com isso, aumentou também a necessidade de infraestrutura de recarga em condomínios, empresas e instituições de ensino.
+
+Em muitos desses ambientes, os carregadores são compartilhados entre vários usuários, gerando dificuldades no controle de consumo e na divisão dos custos de energia.
+
+## Problema Identificado
+
+Os principais problemas encontrados são:
+
+* Falta de identificação dos usuários que realizam as recargas;
+* Dificuldade em medir o consumo individual de energia;
+* Ausência de um sistema de rateio automático;
+* Falta de relatórios e indicadores de utilização;
+* Dificuldade na gestão dos carregadores compartilhados.
+
+## Proposta de Solução
+
+O projeto EV ChargeOps propõe o desenvolvimento de uma plataforma capaz de registrar as sessões de recarga, armazenar informações de consumo, gerar relatórios e utilizar Inteligência Artificial para fornecer análises e previsões sobre o uso dos carregadores.
+
 
 ---
 
