@@ -115,7 +115,81 @@ Essas informações serão armazenadas em banco de dados e utilizadas para gera�
 
 # Frente 3 – Arquitetura e IA
 
-(Esta seção será preenchida após as pesquisas.)
+## Arquitetura da Plataforma
+
+A plataforma EV ChargeOps será dividida em quatro camadas:
+
+### 1. Camada Física
+
+Composta pelo carregador GoodWe HCA G2, responsável por fornecer energia aos veículos elétricos e gerar dados das sessões de carregamento.
+
+### 2. Camada de Conectividade
+
+Responsável pela transmissão das informações utilizando Wi-Fi, LAN, Bluetooth e protocolos de comunicação do carregador.
+
+### 3. Camada de Aplicação
+
+Responsável pelo processamento das informações, regras de negócio, cálculo de rateio e execução dos algoritmos de Inteligência Artificial.
+
+### 4. Camada de Apresentação
+
+Interface utilizada pelos administradores e usuários para visualizar relatórios, consumo, histórico de recargas e faturas.
+
+---
+
+## Fluxo de Dados
+
+1. O usuário conecta o veículo ao carregador.
+2. O carregador inicia a sessão de recarga.
+3. Os dados são enviados para a API da GoodWe.
+4. A plataforma EV ChargeOps recebe e armazena as informações.
+5. O sistema calcula o consumo individual e o rateio.
+6. Os dados são analisados pela Inteligência Artificial.
+7. O usuário visualiza as informações pelo sistema.
+
+---
+
+## Modelo de Rateio
+
+O modelo proposto será baseado no consumo individual de energia.
+
+Exemplo:
+
+| Usuário   | Consumo |
+| --------- | ------- |
+| Usuário A | 50 kWh  |
+| Usuário B | 30 kWh  |
+| Usuário C | 20 kWh  |
+
+Caso a conta de energia seja de R$ 1.000,00:
+
+* Usuário A: R$ 500,00
+* Usuário B: R$ 300,00
+* Usuário C: R$ 200,00
+
+Esse modelo garante uma divisão proporcional ao consumo de cada usuário.
+
+---
+
+## Papel da Inteligência Artificial
+
+A Inteligência Artificial terá papel estrutural na solução, sendo utilizada em duas principais funcionalidades:
+
+### Previsão de Consumo
+
+Utilização de modelos preditivos para estimar o consumo futuro de energia e auxiliar no planejamento da infraestrutura.
+
+### Detecção de Anomalias
+
+Identificação de comportamentos incomuns, como:
+
+* Consumo excessivo;
+* Falhas de carregamento;
+* Uso indevido do equipamento;
+* Picos anormais de energia.
+
+Essas análises auxiliam gestores na tomada de decisão e tornam a plataforma mais inteligente e eficiente.
+
 
 ---
 
