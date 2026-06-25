@@ -56,7 +56,60 @@ O projeto EV ChargeOps propõe o desenvolvimento de uma plataforma capaz de regi
 
 # Frente 2 – Base Técnica e Regulatória
 
-(Esta seção será preenchida após as pesquisas.)
+## Resolução Normativa ANEEL nº 1.000/2021
+
+A Resolução Normativa nº 1.000/2021 da ANEEL estabelece as condições gerais para o fornecimento de energia elétrica no Brasil. Em relação aos veículos elétricos, a norma permite a instalação de infraestrutura de recarga e a exploração comercial do serviço, desde que sejam observadas as exigências da distribuidora de energia e as normas técnicas vigentes.
+
+A regulamentação também incentiva o uso de tecnologias que permitam a medição individualizada do consumo e o monitoramento das sessões de recarga, fatores essenciais para o funcionamento da plataforma EV ChargeOps.
+
+---
+
+## Carregador GoodWe HCA G2
+
+O carregador GoodWe HCA G2 possui diversas interfaces de comunicação que possibilitam a integração com sistemas de gerenciamento.
+
+| Interface | Função                                                   |
+| --------- | -------------------------------------------------------- |
+| Wi-Fi     | Comunicação com a internet e envio de dados para a nuvem |
+| LAN       | Conexão por rede cabeada                                 |
+| Bluetooth | Configuração local do equipamento                        |
+| RFID      | Identificação e autenticação de usuários                 |
+| RS-485    | Comunicação com outros equipamentos e sistemas externos  |
+
+Essas interfaces permitem que os dados das sessões de recarga sejam coletados e utilizados pela plataforma.
+
+---
+
+## API GoodWe (SEMS Portal)
+
+A API do SEMS Portal disponibiliza informações importantes para o gerenciamento do carregador, como:
+
+* Status do carregador;
+* Potência instantânea;
+* Energia consumida;
+* Histórico de sessões;
+* Eventos e registros de operação.
+
+Esses dados podem ser utilizados pelo EV ChargeOps para gerar relatórios, calcular o rateio de energia e alimentar os modelos de Inteligência Artificial.
+
+---
+
+## Opção de Aprofundamento Escolhida
+
+### Exploração da API GoodWe
+
+A plataforma utilizará a API do SEMS Portal para coletar automaticamente os dados de carregamento.
+
+Os principais dados utilizados serão:
+
+* Identificação da sessão;
+* Horário de início e término;
+* Energia consumida (kWh);
+* Potência de carregamento;
+* Identificação do usuário.
+
+Essas informações serão armazenadas em banco de dados e utilizadas para geração de faturas e análises inteligentes.
+
 
 ---
 
