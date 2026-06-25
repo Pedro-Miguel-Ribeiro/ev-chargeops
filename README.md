@@ -117,6 +117,10 @@ Essas informações serão armazenadas em banco de dados e utilizadas para gera�
 
 ## Arquitetura da Plataforma
 
+## Diagrama de Arquitetura
+
+![Arquitetura](imagens/arquitetura.png)
+
 A plataforma EV ChargeOps será dividida em quatro camadas:
 
 ### 1. Camada Física
